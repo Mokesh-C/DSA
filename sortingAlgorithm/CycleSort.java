@@ -5,7 +5,7 @@ import java.util.*;
 public class CycleSort {
     //Note: Use cycle sort only if numbers from range 1 to N
     public static void main(String[] args) {
-        int[] arr = {9, 3, 5, 2, 4, 7, 1, 8, 6};
+        int[] arr = {9, 3, 5, 2, 4, 7, 1, 8, 8,9, 6};
         cyclicSort(arr);
         System.out.println(Arrays.toString(arr));
     }
